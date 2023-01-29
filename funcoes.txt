@@ -1,0 +1,6 @@
+eXECUTA EM TODOS OS TENANTS 
+$tenant->runForEach(function($tenant) { User::factory()->create();}) 
+
+Executa o migrate em todas os tenants
+php artisan tenants:migrate
+
